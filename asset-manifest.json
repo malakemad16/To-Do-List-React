@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/malakemad16/To-Do-List-React/static/css/main.a70674bf.css",
-    "main.js": "/malakemad16/To-Do-List-React/static/js/main.d77b3cd5.js",
-    "index.html": "/malakemad16/To-Do-List-React/index.html",
-    "main.a70674bf.css.map": "/malakemad16/To-Do-List-React/static/css/main.a70674bf.css.map",
-    "main.d77b3cd5.js.map": "/malakemad16/To-Do-List-React/static/js/main.d77b3cd5.js.map"
+    "main.css": "/To-Do-List-React/static/css/main.a70674bf.css",
+    "main.js": "/To-Do-List-React/static/js/main.d77b3cd5.js",
+    "index.html": "/To-Do-List-React/index.html",
+    "main.a70674bf.css.map": "/To-Do-List-React/static/css/main.a70674bf.css.map",
+    "main.d77b3cd5.js.map": "/To-Do-List-React/static/js/main.d77b3cd5.js.map"
   },
   "entrypoints": [
     "static/css/main.a70674bf.css",
