@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+.main-title {
+  padding: 10px;
+  text-align: center;
+}
+.form {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.input:focus {
+  outline: none;
+}
+.add {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
+.tasks {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #eee;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  cursor: pointer;
+}
+.task:not(:last-child) {
+  margin-bottom: 15px;
+}
+.task:hover {
+  background-color: #f7f7f7;
+}
+.completed {
+  padding: 5px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: line-through;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+.icons svg {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #f44336;
+}
+.tasks .task.done {
+  opacity: 0.5;
+}
+.tasks .task span {
+  font-weight: bold;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* {{tasks.length > 0 && window.localStorage.setItem("tasks", JSON.stringify(tasks))}} */
